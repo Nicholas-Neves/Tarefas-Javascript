@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let ano = parseInt(prompt("Insira sua idade:"))
+        let mes = parseInt(prompt("Quantos meses se passaram desde seu último aniversário?"))
+        let dia = parseInt(prompt("Quantos dias se passaram desde o último mês?"))
+
+        ano = ano * 365
+        mes = mes * 30
+
+        soma = ano + mes + dia
+
+        document.write("Você tem " + soma + " dias de vida")
+    </script>
+    
+</body>
+</html>

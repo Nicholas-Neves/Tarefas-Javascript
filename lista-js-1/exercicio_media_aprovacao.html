@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let nota1 = parseFloat(prompt("Digite a primeira nota: "))
+        let nota2 = parseFloat(prompt("Digite a segunda nota: "))
+        let nota3 = parseFloat(prompt("Digite a terceira nota: "))
+
+        let media = (nota1+nota2+nota3)/3
+
+        if (media >= 7) {
+            document.write("Sua média é: "+ media.toFixed(2) +" Você foi aprovado!")
+        }
+        else if (media = 6) {
+            document.write("Sua média é: "+ media.toFixed(2) +" Você está em recuperação!")
+        }
+         else {
+            document.write("Sua média é: "+ media.toFixed(2) + " Você foi reprovado!")
+        }
+        
+    </script>
+    
+</body>
+</html>

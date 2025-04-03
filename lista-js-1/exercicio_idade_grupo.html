@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let lista = []
+        let quantidade = parseInt(prompt("Inserir número de pessoas:"))
+
+        for (let i = 0; i < quantidade; i++) {
+            let idade = parseInt(prompt(`Digite a idade: ${i + 1}:`))
+            lista.push(idade)
+        }
+
+        let menores = lista.filter(lista => lista <18)
+        let maiores = lista.filter(lista => lista >= 18)
+
+        document.write("Menores de idade: " + menores + "<br>")
+        document.write("Maiores de idade: " + maiores)
+        
+    </script>
+    
+</body>
+</html>

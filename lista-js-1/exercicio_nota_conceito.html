@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let nota = parseFloat(prompt("Insira sua nota: "))
+
+        if (nota >= 9 && nota <= 10) {
+            document.write("Você foi muito bom")
+        } else if (nota >= 7 && nota < 9) {
+            document.write("Você foi bom")
+        } else if (nota >= 5 && nota < 7) {
+            document.write("Você foi regular")
+        } 
+        else if (nota >= 0 && nota < 5) {
+            document.write("Você foi insuficiente")
+        } 
+        else {
+            document.write("Insira uma nota valida")
+        }
+    </script>
+    
+</body>
+</html>

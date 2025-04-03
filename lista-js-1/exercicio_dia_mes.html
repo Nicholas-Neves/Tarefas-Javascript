@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let mes = (prompt("Insira um mês(somente minusculo) : "))
+
+        if (mes == "janeiro" || mes == "março" || mes == "maio" || mes == "julho" || mes == "agosto" || mes == "outubro" || mes == "dezembro") {
+            document.write ("O mês de "+ mes +" tem 31 dias")
+        }else if (mes == "fevereiro") {
+            document.write ("O mês de "+ mes +" tem 28 dias")
+        } else if (mes == "abril" || mes == "junho" || mes == "setembro" || mes == "novembro") {
+            document.write ("O mês de "+ mes +" tem 30 dias")
+        } else {
+            document.write("Mês inválido, tente novamente.")
+        }
+    </script>
+    
+</body>
+</html>
